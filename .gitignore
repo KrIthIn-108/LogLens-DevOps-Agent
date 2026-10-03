@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit Secrets (DO NOT COMMIT YOUR API KEYS!)
+.streamlit/secrets.toml
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build & Package Metadata
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# OS Junk Files
+.DS_Store
+Thumbs.db
+
+# Temporary Data / Logs
+*.log
