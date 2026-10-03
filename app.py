@@ -1,4 +1,9 @@
 import os
+import sys
+from pathlib import Path
+# Add project root and src directory to Python path
+sys.path.append(str(Path(__file__).resolve().parent))
+sys.path.append(str(Path(__file__).resolve().parent / "src"))
 import math
 import pandas as pd
 import streamlit as st
